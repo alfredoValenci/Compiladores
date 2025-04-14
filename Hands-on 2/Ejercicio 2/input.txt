@@ -1,0 +1,5 @@
+int x = 10;
+return x;
+// Esto es un comentario de una línea
+/* Este es un comentario de multiples lineas */
+"Cadena de texto"
