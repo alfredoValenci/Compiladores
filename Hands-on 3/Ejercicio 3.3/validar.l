@@ -12,7 +12,7 @@
 "("       { return '('; }
 ")"       { return ')'; }
 [\n]      { return '\n'; }
-[ \t\r]+  ;   // Ignorar espacios y tabulaciones
+[ \t\r]+  ;   
 .         { return yytext[0]; }
 %%
 

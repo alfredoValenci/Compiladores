@@ -49,7 +49,6 @@ logical:
 %%
 
 int yyerror(const char *s) {
-    // No mostrar "syntax error" repetido, lo manejamos en la regla de error
     return 0;
 }
 

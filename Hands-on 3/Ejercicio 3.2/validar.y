@@ -36,7 +36,6 @@ factor:
 %%
 
 int yyerror(const char *s) {
-    // Ya imprimimos "Expresión inválida" en la regla de error, así que puede estar vacío
     return 0;
 }
 
