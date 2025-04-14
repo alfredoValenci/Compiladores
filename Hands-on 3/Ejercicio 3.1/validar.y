@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern int yylex(void);   // Declaración de yylex()
-extern int yyerror(const char *s);  // Declaración de yyerror()
+extern int yylex(void);   
+extern int yyerror(const char *s);  
 %}
 
 %token NUMBER

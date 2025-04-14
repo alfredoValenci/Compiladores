@@ -10,7 +10,7 @@
 "NOT"    { return NOT; }
 "("      { return '('; }
 ")"      { return ')'; }
-[ \t]    ;           // Ignorar espacios
+[ \t]    ;           
 [\n]     { return '\n'; }
 .        { return yytext[0]; }
 %%
